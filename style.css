@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+#game {
+    width: 500px;
+    height: 500px;
+}
+
+.block {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.wall {
+    background-color: #00f;
+}
+
+.empty {
+    background-color: #fff;
+}
+
+.has-ring {
+    background-image: url('imgs/ring.gif');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#hero {
+    height: 50px;
+    width: 50px;
+    background-image: url('imgs/hero.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
