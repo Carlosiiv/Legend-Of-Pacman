@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+#game {
+    width: 1000px;
+    height: 500px;
+}
+
+.block {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.wall {
+    background-color: #00f;
+    background-image: url('imgs/bricks.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.empty {
+    background-color: #fff;
+    background-image: url('imgs/floor.jpg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.has-ring {
+    background-image: url('imgs/ring.gif');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#hero {
+    height: 50px;
+    width: 50px;
+    background-image: url('imgs/hero.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.has-door{
+    background-image: url('imgs/door.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.has-key{
+    background-image: url('imgs/key.gif');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
